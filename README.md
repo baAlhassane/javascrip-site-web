@@ -1,0 +1,1 @@
+This repository contains the simple site code with javascrip , HTML, css. 
