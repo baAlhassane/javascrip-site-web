@@ -4,6 +4,9 @@
 
 :root{
     --primary-color:#047aed ;
+    --secondary-color:#1c3fa8;
+    --dark-color:#002240;
+    --light-color:#f4f4f4;  
 }
 
 *{
@@ -216,4 +219,98 @@ border-radius: 5px;
 .cli .grid > *:first-child{
     grid-column: 1 / span 2;
     grid-row: 1 / span 2;
+}
+
+
+.languages .card{
+text-align: center;
+margin: 18px 10px 40px;
+transition: transform 0.2s ease-in  ;
+}
+
+
+.languages .flex{
+    flex-wrap: wrap;
+}
+
+.languages .card h4{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.languages .card:hover{
+    transform: translateY(-15px);
+}
+
+.footer .social a{
+    margin: 0 10px;
+
+}
+
+/* Media query */
+/* Tablets and uner */
+
+@media(max-width: 768px){
+
+}
+
+
+/* Media query */
+/*  Mobile*/
+@media(max-width: 500px){
+.navbar{
+    height: 110px;
+}
+
+.navbar .flex{
+    flex-direction: column;
+}
+
+.navbar ul{
+    padding: 10px;
+    background-color: rgb(0,0,0,0.1);
+}
+
+
+.grid,
+.showcase .grid,
+.stats .grid, 
+.cli .grid ,
+.cloud .grid{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+
+.showcase {
+    height: auto;
+}
+
+.showcase-text{
+text-align: center;
+margin-top: 40px;
+
+}
+
+.showcase-form{
+    justify-self: center;
+    margin: auto;
+}
+
+
+    
+.cli .grid > *:first-child{
+    grid-column: 1 ;
+    grid-row: 1;
+}
+
+
+
+}
+
+
+
+/* features */
+.features-head img{
+    width:200px;
 }
