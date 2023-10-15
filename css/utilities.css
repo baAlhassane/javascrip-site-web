@@ -223,3 +223,23 @@
   .btn-dark a{
 color: #fff;
   }
+
+
+  .text-primary{
+   color: var(--primary-color);
+
+  }
+
+  .text-secondary{
+color: var(--secondary-color);
+  }
+  
+
+  .text-dark{
+color: var(--dark-color);
+  }
+  
+  .text{
+   background-color: var(--light-color);
+   color:#333;
+  }
